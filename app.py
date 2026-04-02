@@ -1,6 +1,6 @@
 import streamlit as st
 import cv2
-from detector.processor import process_frame
+from detection.processor import process_frame
 
 st.set_page_config(page_title="Drowsiness Detection", layout="centered")
 st.title("Drowsiness Detection")
